@@ -1,0 +1,45 @@
+https://jsbin.com/tizaraz/2/edit?js,console
+
+
+
+
+//str.concat
+
+let txt = "Welcome to JS bin"
+let txt2 = "Hello"
+
+console.log(txt.concat(", ",txt2 ))
+
+//endsWith
+
+let str= 'Hello, Good-morning'
+
+console.log(str.endsWith('Good'))
+console.log(str.endsWith('Good-morning'))
+
+//slice returns extracted string without affecting the original string
+
+let str1='london bridge is falling down'
+
+console.log(str1.slice(0, 13))
+
+//split 
+
+let str2 = 'Raj Kamal Abhi Amit Ram'
+
+console.log(str2.split(','))
+
+//toString
+
+let obj= new String ('wonderland')
+console.log(typeof(obj))
+console.log(obj.toString( ))
+
+//trim 
+
+let str3 ='    Js bin is easy to use     '
+console.log(str3)
+console.log(str3.trim( ))
+console.log(str3.trimStart( ))
+console.log(str3.trimEnd( ))
+
