@@ -1,0 +1,49 @@
+*{
+    text-align: center;
+}
+label{
+    margin: 20px;
+    font-weight: bold;
+    padding-right: 50px;
+}
+input{
+    margin: 10px;
+    padding: 10px;
+    width:420px;
+}
+textarea{
+    width:400px;
+}
+
+.likeComment{
+    background-color: #FF97C1;
+    color: black;
+    font-weight: bold;
+    width: 10%;
+}
+
+.dislikeComment{
+    background-color: #FF5858;
+    color: black;
+    font-weight: bold;
+    width: 10%;
+}
+.deleteComment{
+    background-color: red;
+    color: black;
+    font-weight: bold;
+    width: 10%;
+}
+
+button{
+    padding: 5px;
+    margin: 20px;
+    border-radius: 8px;
+    width: 20%;
+    background-color: purple;
+    color: aliceblue;
+}
+.container{
+    border: 1px solid black;
+    border-radius: 4px;
+}
